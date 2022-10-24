@@ -4,11 +4,11 @@ public class MetodaLuiJacobiCorecta {
         int n=3;
     double[] b =new double []{-2,1,4};
         double [][]a=new double[][]{{3,-1,1},{0,4,1},{1,1,5}};
-        System.out.println("nu");
         double[]y=new double[]{-0.66,0.25,0.8};
         Jac(n, b, a,y,eps);
     }
-
+//ax=x+R cos(alfa)
+//x=x+R cos(alfa)
     public static void Jac(int n,double[]b,double[][]a,double[]y,double eps)
     {
         double[]x=new double[n];
